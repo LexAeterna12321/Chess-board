@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chess Board</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;
+        }
+
+        .board {
+            width: 400px;
+            border: 3px solid rgb(0, 0, 0);
+            margin: 100px auto 0;
+        }
+
+        .board div {
+            float: left;
+            width:20%;
+            height: 80px;
+        }
+
+
+        .board div:nth-child(even) {
+            background-color: #000;
+        }
+
+        .board div:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        h1 {
+            margin-top: 2rem;
+            font-size: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board clearfix">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <h1>Chess Board</h1>
+</body>
+
+</html>
